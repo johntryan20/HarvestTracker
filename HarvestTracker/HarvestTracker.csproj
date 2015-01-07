@@ -44,12 +44,17 @@
     <Reference Include="Mono.Android" />
     <Reference Include="Xamarin.Android.NUnitLite" />
     <Reference Include="Mono.Android.GoogleMaps" />
+    <Reference Include="Mono.Data.Sqlite" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="HarvestTracker.cs" />
+    <Compile Include="DataAccess\CreateLocalDatabase.cs" />
+    <Compile Include="DataAccess\sqlLite.cs" />
+    <Compile Include="DataAccess\Location.cs" />
+    <Compile Include="CurrentLocation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -63,4 +68,7 @@
     <AndroidResource Include="Resources\layout\MapView.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="DataAccess\" />
+  </ItemGroup>
 </Project>
