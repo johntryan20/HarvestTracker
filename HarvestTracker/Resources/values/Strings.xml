@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="buttonAdd">Add(+)</string>
+	<string name="buttonRemove">Remove(-)</string>
+	<string name="app_name">HarvestTracker</string>
+	<string name="field_selection">Select a field</string>
+	<string name="equipment_selection">Select harvestor</string>
+
+	<string-array name="field_list">
+	<item>Field #1</item>
+	<item>Field #2</item>
+	<item>Field #3</item>
+	</string-array>
+
+	<string-array name="equipment_list">
+	<item>Harvestor #1</item>
+	<item>Harvestor #2</item>
+	<item>Spudnick</item>
+	</string-array>
+</resources>
